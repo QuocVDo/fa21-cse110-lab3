@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Meeting Notes To-do List Webapp</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSE110, UCSD, Meeting Notes">
+        <link rel="icon" href="icons8-fire-96.png">
+    </head>
+    
+    <body>
+        <header>
+            <h1 id="myHeader">Meeting Notes: To-do List Webapp</h1>
+            <h2> Brainstorming | Meeting Date: 10/1/2021 at 3:00pm</h2> 
+            
+            <hr>
+
+            <nav>
+                <h3> Quick Navigation Links</h3>
+                <ul>
+                    <li><a href="#myHeader">Top of Page</a></li>
+                    <li><a href="#myFooter">Bottom of Page</a></li>
+                </ul>
+            </nav>
+
+            <hr>
+        </header>
+
+        <main>
+            <section>
+                <h3>Meeting Attendance List</h3>
+                <p><strong>The following people are in attendance:</strong> Quoc <i><span>(CEO)</span></i>, Also Quoc <i>(Chief Engineer)</i>, 
+                    Probably Quoc <i>(Sales/Marketing)</i>, Maybe Quoc <i>(Data Analyst).</i></p>
+            </section>
+            
+            <hr>
+
+            <div>
+                <h3>Today's Agenda</h3>
+                <ol>
+                    <li> Figure out a catchy name for our web app</li>
+                    <li> Discuss <b>key</b> design details</li>
+                    <li> Analzye user feedback on <em>UI Design</em></li>
+                    <li> Begin talking about feasibility of <span>Google Calendar</span> </li>
+                </ol>
+           </div>
+
+           <hr>
+
+           <div>
+               <h3>Unfinished Buisness from Last Meeting</h3>
+               <p>Last meeting we had a discussion on what to name our web-app. Therefore the first item on our agenda is to finally vote on a catchy name.
+                   I also believe that last meeting we had some issues with the tight time constraints of our project. <br> This can be discussed if we 
+                   have time at the end of the meeting today. Otherwise a company-wide email will be sent out at a later date.
+               </p>
+           </div>
+
+           <hr>
+
+            <section>
+                <h3>New Business we Need to Talk About: Adding Google Calender API support</h3>
+                <p> We would like to add a new feature to our web app that allows our simple to do list to sink it's item dates with the user's Google Calendar API.
+                    However, feasibilty of this feature implementation needs to be discussed.<br>Things that need to be considered include: cost, time-constraints, and user 
+                    feedback.  In line with our discussion about user feedback we are going to discuss making some UI changes based off of some complaints
+                    that certain UI elements like buttons were too small.
+
+                    <details>
+                        <summary> User Feedback</summary>
+                        <p> 50% of our users claimed that the checkmark button to "check off" items on their to do list was too small and unsatisfying to press.</p>
+                    </details>
+
+                    <details>
+                        <summary> Google API </summary>
+                        <p> Our Chief Engineer claims this shouldn't be too long and should only take 3 days to implement. But to avoid tight timelines we're giving the 
+                            engineers the whole week.
+                        </p>
+                    </details>
+                </p>
+            </section>
+
+            <hr>
+        
+            <section>
+                <h3>Miscellaneous Comments/Questions/Concerns</h3>
+                <p> <b>Quoc (CEO):</b> "Our team has done a great job on implementing the timer and alarm features, I hear our data analayst reported that users appreciated 
+                    the alarm when something on the to-do list needed to be completed soon."
+                </p>
+
+                <p><b>Also Quoc (Chief Engineer):</b> "I am concerned about the broken coffee machines in the lounge. Without our coffee break, my team of engineers have 
+                    displayed much less energy and productivity. Could we get that fixed?"
+                </p>
+            </section>
+
+            <hr>
+
+            <section>
+                <h3> Important Images and Diagrams during our Meeting</h3>
+                <img src="stonks.jpg" alt="stonks" width="400" height="300">
+                <img src="workflow-diagram-2-1.jpg" alt="workflow-diagram presented" width="400" height="300">
+            </section>
+
+            <hr>
+            <section>
+                <h3>Audio Recording of Meeting</h3>
+                <audio controls>
+                    <source src="Audio.m4a" type="audio/mpeg">
+                  </audio>
+            </section>
+
+            <hr>
+
+            <section>
+                <h3>Video Recording of Meeting</h3>
+                <video height="500" width="300" controls>
+                    <source src="Video.mp4" type="video/mp4">
+                </video>
+            </section>
+
+            <hr>
+
+            <section>
+                <h3>A Cool Form using HTML</h3>
+                <form>
+                    <fieldset>
+                        <legend> Pick your Device of Choice</legend>
+
+                        <input type="radio" id="Apple" name="Apple">
+                        <label for="Apple">Apple</label><br>
+
+                        <input type="radio" id="Android" name="Android">
+                        <label for="Android">Android</label><br>
+
+                        <br>
+                        <label for="name"> Enter your name </label>
+                        <input type="text" id="name" name="name">
+                        
+                        <br>
+
+                        <p><strong>Check off your Hobbies!</strong></p>
+                        <input type="checkbox" id="gaming" name="gaming">
+                        <label for="gaming">Gaming</label>
+                        <input type="checkbox" id="reading" name="reading">
+                        <label for="reading">Reading</label>
+
+                        <p> <b>Whats the date?</b>  </p>
+                        <input type="date" id="date" name="date">
+
+                        <br><br><br>
+                        <label for="comments"> <b>Put your feedback here:</b></label>
+                        <textarea id="comments" name="comments" rows="2" cols="50"></textarea>
+
+                        <br><br>
+                        <label for="browser"><b>Choose your favorite OS from the list (Datalist):</b></label>
+                        <input list="OS" name="browser" id="browser">
+
+                        <datalist id="OS">
+                            <option value="macOS">
+                            <option value="Windows">
+                            <option value="Linux">
+                        </datalist>
+
+                        <br>
+                        <label for="CSE"><b>Do You Like CSE (Select)</b></label>
+                        <select name="CSE" id="CSE">
+                            <option value="YES">YES</option>
+                            <option value="NO">NO</option>
+                        </select>
+
+                        <br>
+                        <button type="button">A Cool Button</button>
+
+                    </fieldset>
+                </form>
+            </section>
+        
+
+        </main>
+            
+        
+
+
+
+        <footer> 
+            <h3 id="myFooter"> Page by Quoc-Zuy Do</h3>
+            <p><b>CSE 110 Lab 2</b></p>
+        </footer>
+    </body>
+</html>
+
+
+
