@@ -2,6 +2,10 @@ body {
     background-color: #ADD8E6
 }
 
-nav {
+.agenda {
+    background-color:hsl(205, 64%, 41%)
+}
+
+#navlinks {
     background-image: url(icons8-fire-96.png)
 }
