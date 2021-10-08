@@ -1,13 +1,24 @@
 body {
-    background-color: #ADD8E6
+    background-color: #ADD8E6;
 }
 
 /* class selector */
 .agenda {
-    background-color:hsl(205, 64%, 41%)
+    background-color:hsl(205, 64%, 41%);
 }
 
 /* id selector */
 #navlinks {
-    background-image: url(icons8-fire-96.png)
+    background-image: url(icons8-fire-96.png);
+}
+
+/* style text */
+* {
+    text-decoration-color:silver;
+}
+
+/* element selector*/
+h3 {
+    color: goldenrod;
+    text-align: center;
 }
