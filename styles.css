@@ -72,3 +72,31 @@ img + p {
     border-width: 0.5em;
     border-radius: 10rem;
 }
+
+
+/* combining two selectors element.class + display*/
+ul.navbar {
+    background-color: royalblue;
+    display: inline;
+}
+
+/* display: inline-block + position */
+.agenda-list {
+    display: inline-block;
+    position: relative; 
+}
+
+/* sizing + position */
+#diagram {
+    height: 300px;
+    width: 500px;
+    max-width: 700px;
+    min-width: 400px;
+
+    position: static;
+}
+
+
+
+
+
