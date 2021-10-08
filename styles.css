@@ -119,3 +119,22 @@ a:active {
     }
 }
 
+/*flexbox: makes the radio buttons "apple" and "android" lay themsleves out  */
+#radio {
+    display: flex;
+}
+
+/* flexbox property */
+#hobbies {
+    flex-wrap: wrap-reverse;
+}
+
+/*flexbox property */
+#pics {
+    flex-shrink: inherit;
+}
+
+/* grid */
+fieldset {
+    display: grid;
+}
