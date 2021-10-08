@@ -73,6 +73,12 @@ img + p {
     border-radius: 10rem;
 }
 
+video {
+    border-style:double;
+    border-color: hotpink;
+    margin-left: 700px;
+}
+
 
 /* combining two selectors element.class + display*/
 ul.navbar {
@@ -96,7 +102,15 @@ ul.navbar {
     position: static;
 }
 
+/* psuedo class selector, makes the quick navigation links become gold after hovering */
+a:hover {
+    background-color: gold;
+}
 
+/*pseudo-class ACTIVE makes the link green when you click on it.*/
+a:active {
+    background-color: green;
+}
 
 
 
