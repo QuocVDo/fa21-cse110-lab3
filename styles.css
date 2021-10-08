@@ -15,7 +15,7 @@ body {
     background-image: url(icons8-fire-96.png);
 }
 
-/* style text */
+/* unviversal selector */
 * {
     text-decoration-color:silver;
     
@@ -31,4 +31,36 @@ h3 {
 /*attribute selector */
 [title~=main] {
     font-family: 'Pacifico', cursive;
+}
+
+/*descendent combinator*/
+section p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px; 
+    margin-right: 25px;
+}
+
+/* child combinator */
+div > p {
+    margin: 25px 50px 75px 100px;
+}
+
+/*general sibling combinator*/
+h3 ~ li {
+    margin:auto;
+}
+
+/*adjacent sibling combinator */
+img + p {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+}
+
+/*selector list */
+.miscellaneous-comment, .miscellaneous-complaint{
+    padding-top: 20px 30px 20px 200px;
+    background-color: red;
 }
