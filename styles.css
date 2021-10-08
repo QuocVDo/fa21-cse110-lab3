@@ -112,7 +112,7 @@ a:active {
     background-color: green;
 }
 
-/*media query responsiveness + when y ou make the width smaller than 500px it makes the background turn rosy brown*/
+/*media query responsiveness + when y ou make the width smaller than 500px it makes the background turn rosy*/
 @media only screen and (max-width: 500px) {
     body {
         background-color: rosybrown;
