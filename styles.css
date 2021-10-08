@@ -2,10 +2,12 @@ body {
     background-color: #ADD8E6
 }
 
+/* class selector */
 .agenda {
     background-color:hsl(205, 64%, 41%)
 }
 
+/* id selector */
 #navlinks {
     background-image: url(icons8-fire-96.png)
 }
