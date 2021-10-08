@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Ubuntu:wght@300&display=swap');
+
 body {
     background-color: #ADD8E6;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* class selector */
@@ -15,10 +18,17 @@ body {
 /* style text */
 * {
     text-decoration-color:silver;
+    
 }
 
 /* element selector*/
 h3 {
     color: goldenrod;
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*attribute selector */
+[title~=main] {
+    font-family: 'Pacifico', cursive;
 }
